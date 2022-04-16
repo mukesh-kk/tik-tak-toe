@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tik Tak Toe</title>
+    <script
+      src="https://kit.fontawesome.com/8320883136.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEading and score -->
+    <h1 id="heading">TIK TAK TOE</h1>
+    <div class="score">
+      <button id="x">X-score: <span id="x-score">0</span></button>
+      <button id="o">O-score: <span id="o-score">0</span></button>
+    </div>
+
+<!-- GRIDs MATRIX-->
+    <div class="main-box" id="main-box">
+      <div class="box1 box"></div>
+      <div class="box2 box"></div>
+      <div class="box3 box"></div>
+      <div class="box4 box"></div>
+      <div class="box5 box"></div>
+      <div class="box6 box"></div>
+      <div class="box7 box"></div>
+      <div class="box8 box"></div>
+      <div class="box9 box"></div>
+    </div>
+
+    
+    <!-- BUTTON for playing withour deleting score -->
+    <button id="play-again-btn"style="cursor:pointer">
+        <i class="fa-solid fa-arrows-rotate"></i> Play Again
+    </button>
+
+    <h1 id="game-over">Game is Over</h1>
+    <h1 id="x-win">Player X wins</h1>
+    <h1 id="o-win">Player O wins</h1>
+     
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
